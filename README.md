@@ -37,9 +37,16 @@ http://www.runoob.com/mongodb/mongodb-osx-install.html
 ![输入图片说明](https://gitee.com/uploads/images/2018/0215/155754_59d53e99_1577043.jpeg "1518681332683.jpg")
 
 2. MongoDB 数据库配置
+
 打开 watercress_book_crawler/doubanbook/settings.py 文件，设置对应的字段值（默认的话不用更改）
 
 ![输入图片说明](https://gitee.com/uploads/images/2018/0215/163333_afc5ffc9_1577043.png "WX20180215-163315.png")
+
+3. 设置下载速度
+
+打开 watercress_book_crawler/doubanbook/settings.py 文件，设置 DOWNLOAD_DELAY 的值，建议默认为2
+![输入图片说明](https://gitee.com/uploads/images/2018/0215/164319_5177fc7f_1577043.png "WX20180215-164229.png")
+
 
 ### 项目怎么用？
 1. 下载项目
@@ -62,4 +69,3 @@ scrapy crawl dbb
 - 数据库
 
 ![输入图片说明](https://gitee.com/uploads/images/2018/0215/163901_40104a00_1577043.jpeg "1518683824526.jpg")
-
