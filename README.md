@@ -1,8 +1,8 @@
-### 这是什么鬼？
+### 项目简介
 这是一个爬取豆瓣所有标签下图书的爬虫，运行后会根据规矩不断爬取图书直到结束，会将爬取到的数据写入到 MongoDB 数据库
 
 
-### 要用到什么？
+### 前期准备
 1. 安装 scrapy 框架    
 
 - Windows 安装方式
@@ -29,7 +29,7 @@ http://www.runoob.com/mongodb/mongodb-linux-install.html
 http://www.runoob.com/mongodb/mongodb-osx-install.html
 
 
-### 怎么配置呀？
+### 选项配置
 1. 豆瓣账号和密码设置
 
 打开 watercress_book_crawler/doubanbook/spiders/dbb.py 文件，将其中的 username 改为豆瓣账号，password 改为豆瓣密码（单引号别丢了)
@@ -48,7 +48,7 @@ http://www.runoob.com/mongodb/mongodb-osx-install.html
 ![输入图片说明](https://gitee.com/uploads/images/2018/0215/164319_5177fc7f_1577043.png "WX20180215-164229.png")
 
 
-### 项目怎么用？
+### 运行项目
 1. 下载项目
    
 git clone https://gitee.com/cix/watercress_book_crawler.git
@@ -61,7 +61,7 @@ cd watercress_book_crawler/
 
 scrapy crawl dbb
 
-### 最后的结果？
+### 运行结果
 - 保存的字段
 
 ![输入图片说明](https://gitee.com/uploads/images/2018/0215/163757_627b4b4f_1577043.png "WX20180215-163735.png")
