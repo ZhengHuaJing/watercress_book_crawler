@@ -28,3 +28,5 @@ class DoubanbookPipeline(object):
 		# 如果书名不为NULL则写入数据库
 		if item['book_name'] != 'NULL':
 			self.sheet.insert(dict(item))
+			
+			return item
